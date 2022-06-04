@@ -67,4 +67,6 @@ file 101-easy_print.py Write a program that prints #pythoniscool, followed by a 
 Your program should be maximum 2 lines long
 You are not allowed to use print or eval or open or import sys in your file 101-easy_print.py 
 
+f102-magic_calculation.pyile  Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python
 
+ bytecode:
