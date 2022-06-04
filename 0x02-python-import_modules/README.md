@@ -47,3 +47,20 @@ Make sure you are running your code in Python3.8.x (hidden_4.pyc has been compil
 file 5-variable_load.py Write a program that imports the variable a from the file variable_load_5.py and prints its value.
 You are not allowed to use * for importing or __import_ 
 
+file 100-my_calculator.py  Write a program that imports all functions from the file calculator_1.py and handles basic operations.
+Usage: ./100-my_calculator.py a operator b
+If the number of arguments is not 3, your program has to:
+print Usage: ./100-my_calculator.py <a> <operator> <b> followed with a new line
+exit with the value 1
+operator can be:
++ for addition
+- for subtraction
+* for multiplication
+/ for division
+If the operator is not one of the above:
+print Unknown operator. Available operators: +, -, * and / followed with a new line
+exit with the value 1
+You can cast a and b into integers by using int() (you can assume that all arguments will be castable into integers)
+The result should be printed like this: <a> <operator
+
+
